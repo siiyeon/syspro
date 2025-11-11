@@ -1,0 +1,4 @@
+fprintf(fp, "%d %s %s %d %d %d\n",
+        books[i].id, books[i].title, books[i].author,
+        books[i].year, books[i].borrow_count, books[i].available);
+
